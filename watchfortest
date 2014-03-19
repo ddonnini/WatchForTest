@@ -1,0 +1,3 @@
+#!/bin/sh
+
+watchmedo shell-command --wait --recursive --patterns="*.php" --command="[ \${watch_event_type} = 'modified' ] && $1" $2

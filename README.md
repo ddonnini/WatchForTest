@@ -8,14 +8,9 @@ Requirements
 
 Install watchmedo (https://github.com/gorakhargosh/watchdog)
 
-Create the script (for example in /usr/bin/watchfortest)
-
- #!/bin/sh
-
-watchmedo shell-command --wait --recursive --patterns="*.php" --command="[ \${watch_event_type} = 'modified' ] && $1" $2
-
-
 Usage
 =====
+
+Copy the script, for example, in /usr/bin/watchfortest
 
 watchfortest "phpunit" .
