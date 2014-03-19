@@ -1,12 +1,12 @@
 WatchForTest
 ============
 
-The script will listen to all php files' changes in a specific folder and execute a specific command.
+The watchfortest script will listen to all changes to php files in a specific folder and execute a specific command.
 
 Requirements
 ============
 
-Install watchmedo (https://github.com/gorakhargosh/watchdog)
+Install watchdog (https://github.com/gorakhargosh/watchdog)
 
 Usage
 =====
